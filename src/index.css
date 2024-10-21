@@ -1,13 +1,46 @@
 body {
+  background-color: rgb(253, 139, 0);
+  color: rgb(0, 0, 0);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+button a {
+  display: block;
+  text-decoration: none;
+  color: inherit; /* Übernimmt die Farbe des Buttons */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Zentriert die Buttons horizontal */
+  gap: 20px; /* Abstand zwischen den Buttons */
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
 }
